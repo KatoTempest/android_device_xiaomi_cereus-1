@@ -42,6 +42,7 @@ TARGET_PREBUILT_KERNEL := device/xiaomi/cactus/prebuilt/kernel
 # Recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
 RECOVERY_SDCARD_ON_DATA := true
+TARGET_USERIMAGES_USE_EXT4 := true
 
 # Resolution
 DEVICE_RESOLUTION := 720x1440
